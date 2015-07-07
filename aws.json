@@ -23,7 +23,7 @@
                 "inline":	[
                 "sleep 60",
                 "sudo yum update -y",
-                "sudo yum install httpd php php-mysql mysql mysql-server -y"
+                "sudo yum install httpd -y"
 							]
 
                         }]
