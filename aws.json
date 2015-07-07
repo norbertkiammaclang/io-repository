@@ -1,8 +1,8 @@
 {
 
         "variables": {
-                "aws_access_key": "$1",
-                "aws_secret_key": "$2"
+                "aws_access_key": "AKIAJF62ELL33GNRXLBA",
+                "aws_secret_key": "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"
 
         },
 
@@ -23,7 +23,7 @@
                 "inline":	[
                 "sleep 60",
                 "sudo yum update -y",
-                "sudo yum install httpd php php-mysql mysql mysql-server -y",
+                "sudo yum install httpd php php-mysql mysql mysql-server -y"
 							]
 
                         }]
