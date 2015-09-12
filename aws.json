@@ -21,7 +21,7 @@
         "provisioners": [{
                 "type": "shell",
                 "inline":	[
-                "sleep 50",
+                "sleep 30",
                 "sudo yum update -y",
                 "sudo yum install httpd -y"
 							]
